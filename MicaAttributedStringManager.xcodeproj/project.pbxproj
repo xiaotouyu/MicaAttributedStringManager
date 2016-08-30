@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049F44C01D755A4B00D69CAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F44BF1D755A4B00D69CAA /* main.m */; };
+		049F44C31D755A4B00D69CAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F44C21D755A4B00D69CAA /* AppDelegate.m */; };
+		049F44C61D755A4B00D69CAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F44C51D755A4B00D69CAA /* ViewController.m */; };
+		049F44C91D755A4B00D69CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049F44C71D755A4B00D69CAA /* Main.storyboard */; };
+		049F44CB1D755A4B00D69CAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049F44CA1D755A4B00D69CAA /* Assets.xcassets */; };
+		049F44CE1D755A4B00D69CAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049F44CC1D755A4B00D69CAA /* LaunchScreen.storyboard */; };
+		049F44D91D755A4B00D69CAA /* MicaAttributedStringManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F44D81D755A4B00D69CAA /* MicaAttributedStringManagerTests.m */; };
+		049F44E41D755A4B00D69CAA /* MicaAttributedStringManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F44E31D755A4B00D69CAA /* MicaAttributedStringManagerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		049F44D51D755A4B00D69CAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049F44B31D755A4B00D69CAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 049F44BA1D755A4B00D69CAA;
+			remoteInfo = MicaAttributedStringManager;
+		};
+		049F44E01D755A4B00D69CAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049F44B31D755A4B00D69CAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 049F44BA1D755A4B00D69CAA;
+			remoteInfo = MicaAttributedStringManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049F44BB1D755A4B00D69CAA /* MicaAttributedStringManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicaAttributedStringManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		049F44BF1D755A4B00D69CAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		049F44C11D755A4B00D69CAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		049F44C21D755A4B00D69CAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		049F44C41D755A4B00D69CAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		049F44C51D755A4B00D69CAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		049F44C81D755A4B00D69CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		049F44CA1D755A4B00D69CAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		049F44CD1D755A4B00D69CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		049F44CF1D755A4B00D69CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049F44D41D755A4B00D69CAA /* MicaAttributedStringManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicaAttributedStringManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		049F44D81D755A4B00D69CAA /* MicaAttributedStringManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicaAttributedStringManagerTests.m; sourceTree = "<group>"; };
+		049F44DA1D755A4B00D69CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049F44DF1D755A4B00D69CAA /* MicaAttributedStringManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicaAttributedStringManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		049F44E31D755A4B00D69CAA /* MicaAttributedStringManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicaAttributedStringManagerUITests.m; sourceTree = "<group>"; };
+		049F44E51D755A4B00D69CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049F44B81D755A4B00D69CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F44D11D755A4B00D69CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F44DC1D755A4B00D69CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049F44B21D755A4B00D69CAA = {
+			isa = PBXGroup;
+			children = (
+				049F44BD1D755A4B00D69CAA /* MicaAttributedStringManager */,
+				049F44D71D755A4B00D69CAA /* MicaAttributedStringManagerTests */,
+				049F44E21D755A4B00D69CAA /* MicaAttributedStringManagerUITests */,
+				049F44BC1D755A4B00D69CAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		049F44BC1D755A4B00D69CAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				049F44BB1D755A4B00D69CAA /* MicaAttributedStringManager.app */,
+				049F44D41D755A4B00D69CAA /* MicaAttributedStringManagerTests.xctest */,
+				049F44DF1D755A4B00D69CAA /* MicaAttributedStringManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		049F44BD1D755A4B00D69CAA /* MicaAttributedStringManager */ = {
+			isa = PBXGroup;
+			children = (
+				049F44C11D755A4B00D69CAA /* AppDelegate.h */,
+				049F44C21D755A4B00D69CAA /* AppDelegate.m */,
+				049F44C41D755A4B00D69CAA /* ViewController.h */,
+				049F44C51D755A4B00D69CAA /* ViewController.m */,
+				049F44C71D755A4B00D69CAA /* Main.storyboard */,
+				049F44CA1D755A4B00D69CAA /* Assets.xcassets */,
+				049F44CC1D755A4B00D69CAA /* LaunchScreen.storyboard */,
+				049F44CF1D755A4B00D69CAA /* Info.plist */,
+				049F44BE1D755A4B00D69CAA /* Supporting Files */,
+			);
+			path = MicaAttributedStringManager;
+			sourceTree = "<group>";
+		};
+		049F44BE1D755A4B00D69CAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				049F44BF1D755A4B00D69CAA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		049F44D71D755A4B00D69CAA /* MicaAttributedStringManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				049F44D81D755A4B00D69CAA /* MicaAttributedStringManagerTests.m */,
+				049F44DA1D755A4B00D69CAA /* Info.plist */,
+			);
+			path = MicaAttributedStringManagerTests;
+			sourceTree = "<group>";
+		};
+		049F44E21D755A4B00D69CAA /* MicaAttributedStringManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				049F44E31D755A4B00D69CAA /* MicaAttributedStringManagerUITests.m */,
+				049F44E51D755A4B00D69CAA /* Info.plist */,
+			);
+			path = MicaAttributedStringManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		049F44BA1D755A4B00D69CAA /* MicaAttributedStringManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049F44E81D755A4B00D69CAA /* Build configuration list for PBXNativeTarget "MicaAttributedStringManager" */;
+			buildPhases = (
+				049F44B71D755A4B00D69CAA /* Sources */,
+				049F44B81D755A4B00D69CAA /* Frameworks */,
+				049F44B91D755A4B00D69CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicaAttributedStringManager;
+			productName = MicaAttributedStringManager;
+			productReference = 049F44BB1D755A4B00D69CAA /* MicaAttributedStringManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		049F44D31D755A4B00D69CAA /* MicaAttributedStringManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049F44EB1D755A4B00D69CAA /* Build configuration list for PBXNativeTarget "MicaAttributedStringManagerTests" */;
+			buildPhases = (
+				049F44D01D755A4B00D69CAA /* Sources */,
+				049F44D11D755A4B00D69CAA /* Frameworks */,
+				049F44D21D755A4B00D69CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049F44D61D755A4B00D69CAA /* PBXTargetDependency */,
+			);
+			name = MicaAttributedStringManagerTests;
+			productName = MicaAttributedStringManagerTests;
+			productReference = 049F44D41D755A4B00D69CAA /* MicaAttributedStringManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		049F44DE1D755A4B00D69CAA /* MicaAttributedStringManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049F44EE1D755A4B00D69CAA /* Build configuration list for PBXNativeTarget "MicaAttributedStringManagerUITests" */;
+			buildPhases = (
+				049F44DB1D755A4B00D69CAA /* Sources */,
+				049F44DC1D755A4B00D69CAA /* Frameworks */,
+				049F44DD1D755A4B00D69CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049F44E11D755A4B00D69CAA /* PBXTargetDependency */,
+			);
+			name = MicaAttributedStringManagerUITests;
+			productName = MicaAttributedStringManagerUITests;
+			productReference = 049F44DF1D755A4B00D69CAA /* MicaAttributedStringManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		049F44B31D755A4B00D69CAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = dashuios126;
+				TargetAttributes = {
+					049F44BA1D755A4B00D69CAA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 83DDW5VL6U;
+					};
+					049F44D31D755A4B00D69CAA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 83DDW5VL6U;
+						TestTargetID = 049F44BA1D755A4B00D69CAA;
+					};
+					049F44DE1D755A4B00D69CAA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 83DDW5VL6U;
+						TestTargetID = 049F44BA1D755A4B00D69CAA;
+					};
+				};
+			};
+			buildConfigurationList = 049F44B61D755A4B00D69CAA /* Build configuration list for PBXProject "MicaAttributedStringManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 049F44B21D755A4B00D69CAA;
+			productRefGroup = 049F44BC1D755A4B00D69CAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				049F44BA1D755A4B00D69CAA /* MicaAttributedStringManager */,
+				049F44D31D755A4B00D69CAA /* MicaAttributedStringManagerTests */,
+				049F44DE1D755A4B00D69CAA /* MicaAttributedStringManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		049F44B91D755A4B00D69CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049F44CE1D755A4B00D69CAA /* LaunchScreen.storyboard in Resources */,
+				049F44CB1D755A4B00D69CAA /* Assets.xcassets in Resources */,
+				049F44C91D755A4B00D69CAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F44D21D755A4B00D69CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F44DD1D755A4B00D69CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049F44B71D755A4B00D69CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049F44C61D755A4B00D69CAA /* ViewController.m in Sources */,
+				049F44C31D755A4B00D69CAA /* AppDelegate.m in Sources */,
+				049F44C01D755A4B00D69CAA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F44D01D755A4B00D69CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049F44D91D755A4B00D69CAA /* MicaAttributedStringManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F44DB1D755A4B00D69CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049F44E41D755A4B00D69CAA /* MicaAttributedStringManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		049F44D61D755A4B00D69CAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 049F44BA1D755A4B00D69CAA /* MicaAttributedStringManager */;
+			targetProxy = 049F44D51D755A4B00D69CAA /* PBXContainerItemProxy */;
+		};
+		049F44E11D755A4B00D69CAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 049F44BA1D755A4B00D69CAA /* MicaAttributedStringManager */;
+			targetProxy = 049F44E01D755A4B00D69CAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		049F44C71D755A4B00D69CAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049F44C81D755A4B00D69CAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		049F44CC1D755A4B00D69CAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049F44CD1D755A4B00D69CAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		049F44E61D755A4B00D69CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		049F44E71D755A4B00D69CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		049F44E91D755A4B00D69CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MicaAttributedStringManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashuchina.MicaAttributedStringManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		049F44EA1D755A4B00D69CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MicaAttributedStringManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashuchina.MicaAttributedStringManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		049F44EC1D755A4B00D69CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MicaAttributedStringManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashuchina.MicaAttributedStringManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicaAttributedStringManager.app/MicaAttributedStringManager";
+			};
+			name = Debug;
+		};
+		049F44ED1D755A4B00D69CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MicaAttributedStringManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashuchina.MicaAttributedStringManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicaAttributedStringManager.app/MicaAttributedStringManager";
+			};
+			name = Release;
+		};
+		049F44EF1D755A4B00D69CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MicaAttributedStringManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashuchina.MicaAttributedStringManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MicaAttributedStringManager;
+			};
+			name = Debug;
+		};
+		049F44F01D755A4B00D69CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MicaAttributedStringManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashuchina.MicaAttributedStringManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MicaAttributedStringManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049F44B61D755A4B00D69CAA /* Build configuration list for PBXProject "MicaAttributedStringManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049F44E61D755A4B00D69CAA /* Debug */,
+				049F44E71D755A4B00D69CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049F44E81D755A4B00D69CAA /* Build configuration list for PBXNativeTarget "MicaAttributedStringManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049F44E91D755A4B00D69CAA /* Debug */,
+				049F44EA1D755A4B00D69CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		049F44EB1D755A4B00D69CAA /* Build configuration list for PBXNativeTarget "MicaAttributedStringManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049F44EC1D755A4B00D69CAA /* Debug */,
+				049F44ED1D755A4B00D69CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		049F44EE1D755A4B00D69CAA /* Build configuration list for PBXNativeTarget "MicaAttributedStringManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049F44EF1D755A4B00D69CAA /* Debug */,
+				049F44F01D755A4B00D69CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 049F44B31D755A4B00D69CAA /* Project object */;
+}
